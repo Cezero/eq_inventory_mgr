@@ -2,7 +2,7 @@
 
 Scans EverQuest inventory export files and builds a roster view of equipped gear — locally as CSV and/or in a shared Google Sheet.
 
-**Input:** `*_{server}-Inventory.txt` files under a configured EQ home directory.
+**Input:** `*_{server}-Inventory.txt` files under a configured EQ home directory. Create these using the `/outputfile inventory` command in game.
 
 **Output:** One row per character. Equipment slots are columns. Equipped items appear as clickable [Lucy](https://lucy.allakhazam.com) links.
 
