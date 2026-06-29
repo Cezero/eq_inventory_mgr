@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <eq_home>D:/Games/EverQuest</eq_home>
+  <server>frostreaver</server>
+  <output_csv>inventory.csv</output_csv>
+  <google_sheets>
+    <spreadsheet_id>1abc...xyz</spreadsheet_id>
+    <worksheet>Inventory</worksheet>
+    <credentials>credentials/credentials.json</credentials>
+  </google_sheets>
+</config>

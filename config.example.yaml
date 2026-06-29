@@ -1,0 +1,20 @@
+# Copy to config.yaml and fill in your values, then run:
+#   python scripts/inventory_export.py
+
+eq_home: "D:/Games/EverQuest"
+server: frostreaver
+
+# Local CSV snapshot of characters on this machine (optional)
+output_csv: inventory.csv
+
+# Google Sheets — per-character upsert into a shared roster sheet (optional)
+# credentials: path/filename of service account JSON (default: credentials/credentials.json)
+google_sheets:
+  spreadsheet_id: "1abc...xyz"
+  worksheet: Inventory
+  credentials: credentials/credentials.json
+
+# Google Cloud one-time setup:
+# 1. Enable Google Sheets API in a GCP project
+# 2. Create a service account and download its JSON key
+# 3. Share the target spreadsheet with the service account email (Editor)
